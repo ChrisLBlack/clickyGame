@@ -1,5 +1,62 @@
 [{
-    "id": 1,
-    "image": "../public/assets/bench.jpeg ",
-    "clicked": false
-}]
+        "id": 1,
+        "image": "https://clicky-game.netlify.com/assets/images/beth.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "https://clicky-game.netlify.com/assets/images/birdperson.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "https://clicky-game.netlify.com/assets/images/evilmorty.png",
+        "clicked": false
+
+    },
+    {
+        "id": 4,
+        "image": "https://clicky-game.netlify.com/assets/images/gianthead.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "https://clicky-game.netlify.com/assets/images/goldenford.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "https://clicky-game.netlify.com/assets/images/jerry.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "https://clicky-game.netlify.com/assets/images/jessica.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "https://clicky-game.netlify.com/assets/images/meeseeks.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "https://clicky-game.netlify.com/assets/images/morty.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "https://clicky-game.netlify.com/assets/images/mr.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "https://clicky-game.netlify.com/assets/images/rick.png",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "https://clicky-game.netlify.com/assets/images/summer.png",
+        "clicked": false
+    }
+]

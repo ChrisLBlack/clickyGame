@@ -15,15 +15,13 @@ class App extends Component {
       <div>
         <NavBar />
         <Jumbo />
-        <Image>
-          <div>
-            {this.state.images.map(image => (
-              <div size="md-3 sm-6">
-                <Image key={image.id} id={image.id} image={image.image} />
-              </div>
-            ))}
-          </div>
-        </Image>
+
+        <div>
+          {this.state.images.map(pic => (
+            <Image key={pic.id} id={pic.id} image={pic.image} />
+          ))}
+        </div>
+
         <Footer />
       </div>
     );
