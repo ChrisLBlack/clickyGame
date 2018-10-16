@@ -1,0 +1,28 @@
+nav {
+    width: 100%;
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgb(56, 56, 56);
+    height: 8%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 20%;
+    display: flex;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+#cur-sco,
+#top-sco {
+    position: relative;
+    left: 25%;
+    display: flex;
+
+}
