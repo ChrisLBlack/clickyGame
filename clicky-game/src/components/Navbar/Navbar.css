@@ -4,6 +4,10 @@ nav {
     color: #fff;
     background-color: rgb(56, 56, 56);
     height: 8%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 nav li {

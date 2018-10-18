@@ -11,8 +11,10 @@
 .card>.img-container {
     height: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .card>.img-container>img {
-    width: 100%
+    width: 100%;
+    position: relative;
 }

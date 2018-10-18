@@ -8,4 +8,5 @@
     align-content: flex-start;
     overflow: auto;
     margin: 5% 2% 10% 2%;
+    position: relative;
 }
