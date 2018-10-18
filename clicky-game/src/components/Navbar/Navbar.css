@@ -24,10 +24,15 @@ ul {
     align-items: center;
 }
 
+#rw {
+    text-align: center;
+    margin-left: 15%;
+}
+
 #cur-sco,
 #top-sco {
     position: relative;
-    left: 25%;
+    left: 15%;
     display: flex;
 
 }

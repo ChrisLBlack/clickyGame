@@ -9,7 +9,7 @@ import Column from "./components/Column/Column";
 import Footer from "./components/Footer/Footer";
 import images from "./images.json";
 import "./App.css";
-
+//this function shuffles the images in an array and throws them on the DOM
 function shuffleImages(array) {
   for (let i = array.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
@@ -19,7 +19,6 @@ function shuffleImages(array) {
 }
 
 class App extends Component {
-  // Set this.state
   state = {
     images,
     currentScore: 0,
@@ -27,7 +26,7 @@ class App extends Component {
     rightWrong: "",
     clicked: []
   };
-
+  //event handler for clicking on an image
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
@@ -36,7 +35,7 @@ class App extends Component {
       this.handleReset();
     }
   };
-
+  //increment counter for score keeping
   handleIncrement = () => {
     const newScore = this.state.currentScore + 1;
     this.setState({
@@ -50,7 +49,7 @@ class App extends Component {
     }
     this.handleShuffle();
   };
-
+  //resets the game if wrong / currentScore back to zero
   handleReset = () => {
     this.setState({
       currentScore: 0,
@@ -60,7 +59,7 @@ class App extends Component {
     });
     this.handleShuffle();
   };
-
+  //shuffles the images on page
   handleShuffle = () => {
     let shuffledImages = shuffleImages(images);
     this.setState({ images: shuffledImages });
