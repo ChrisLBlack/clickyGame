@@ -6,6 +6,7 @@ import Title from "./components/Title";
 import Container from "./components/Container/Container";
 import Row from "./components/Row/Row";
 import Column from "./components/Column/Column";
+import Footer from "./components/Footer/Footer";
 import images from "./images.json";
 import "./App.css";
 
@@ -77,7 +78,7 @@ class App extends Component {
 
         <Title>
           Clicky Game! Click on an image to earn points, but don't click on any
-          more than once!
+          image more than once!
         </Title>
 
         <Container>
@@ -97,6 +98,7 @@ class App extends Component {
             ))}
           </Row>
         </Container>
+        <Footer />
       </Wrapper>
     );
   }
